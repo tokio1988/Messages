@@ -86,18 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.ts":
-/*!********************!*\
-  !*** ./src/app.ts ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Hero = void 0;\r\nvar Hero = /** @class */ (function () {\r\n    function Hero(id, name) {\r\n        this.id = id;\r\n        this.name = name;\r\n    }\r\n    Hero.prototype.myName = function () {\r\n        return this.name;\r\n    };\r\n    return Hero;\r\n}());\r\nexports.Hero = Hero;\r\nvar hero = new Hero(1, 'krunal');\r\nconsole.log(hero.myName());\r\n\n\n//# sourceURL=webpack:///./src/app.ts?");
-
-/***/ }),
-
 /***/ "./src/main.ts":
 /*!*********************!*\
   !*** ./src/main.ts ***!
@@ -106,7 +94,7 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nex
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar app_1 = __webpack_require__(/*! ./app */ \"./src/app.ts\");\r\nObject.defineProperty(exports, \"Hero\", { enumerable: true, get: function () { return app_1.Hero; } });\r\n\n\n//# sourceURL=webpack:///./src/main.ts?");
+eval("\r\n//export { Hero } from \"./app\"\r\n\n\n//# sourceURL=webpack:///./src/main.ts?");
 
 /***/ })
 

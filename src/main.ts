@@ -1,1 +1,1 @@
-export { Hero } from "./app"
+//export { Hero } from "./app"
