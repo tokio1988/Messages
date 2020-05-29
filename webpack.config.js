@@ -11,9 +11,9 @@ module.exports = {
 
  
 
-    entry: path.join(ROOT, '/main.ts'),
+    entry: path.join(ROOT, '/app.ts'),
     output: {
-        filename: 'main.js',
+        filename: 'app.js',
         path: DEST
         //path: __dirname
     },
